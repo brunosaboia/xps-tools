@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XpsTools", "XpsTools\XpsTools.csproj", "{DE6B8A8F-D085-4625-A712-C52ECADC4782}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XpsTools", "src\XpsTools\XpsTools.csproj", "{DE6B8A8F-D085-4625-A712-C52ECADC4782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annotator", "Annotator\Annotator.csproj", "{3BB27E5E-3FDB-43AF-B82E-C36F8E5626B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annotator", "src\Annotator\Annotator.csproj", "{3BB27E5E-3FDB-43AF-B82E-C36F8E5626B4}"
+EndProject
+Project("{66A26720-8FB5-11D2-AA7E-00C04F688DDE}") = "Solution Items", "Solution Items", "{BCA7195D-8799-4884-A0CB-06127D6F3997}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
